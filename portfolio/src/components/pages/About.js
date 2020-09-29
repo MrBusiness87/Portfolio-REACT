@@ -31,7 +31,7 @@ function About() {
   return (
     <div>
     <p class="about">
-    <img src="assets/PROFILE1.jpg" style={imgstyle} alt="profile"></img>
+    <img src="../assets/PROFILE1.jpg" style={imgstyle} alt="profile"></img>
     <p>Hello, thank you for coming to visit my page, hope you enjoy what I have done with the
     place!
     My name is <span style={lightgreen}>Borjan Bartula</span>.</p>

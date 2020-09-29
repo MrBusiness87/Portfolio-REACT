@@ -1,4 +1,14 @@
 body {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
   background-image: url(./blackpaper-hires.jpg);
   color: white;
+}
+
+.about,
+.achievement {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
 }
