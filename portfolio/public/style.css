@@ -1,5 +1,29 @@
+* {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: lightgreen;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 body {
-  width: 1200px;
+  width: 1500px;
   margin-right: auto;
   margin-left: auto;
   background-image: url(./blackpaper-hires.jpg);
@@ -8,9 +32,10 @@ body {
 
 .about,
 .achievement {
-  width: 800px;
+  width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  font-size: 20px;
 }
 
 .navbar {

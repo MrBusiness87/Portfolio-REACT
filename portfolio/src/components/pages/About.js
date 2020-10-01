@@ -14,13 +14,11 @@ function About() {
     <p class="about">
     <img src={require ("../assets/profile.jpg")} style={imgstyle} alt="profile"></img>
     <p>Hello, thank you for coming to visit my page, hope you enjoy what I have done with the
-    place!
-    My name is <span class="lightgreen">Borjan Bartula</span>.</p>
-    <p>Pronounced <span
+    place!<br></br><br></br>
+    My name is <span class="lightgreen">Borjan Bartula</span>.<br></br>Pronounced <span
       class="red">Bor</span>-<span class="orange">y&#275;n</span> <span
       class="red">Bar</span>-<span class="lightblue">t&#363;</span>-<span
-      class="orange">la</span>.</p>
-      <p>I was born in <u>Yugoslavia</u>, the summer of <b>1987</b>. Always aspire
+      class="orange">la</span>.<br></br><br></br>I was born in <u>Yugoslavia</u>, the summer of <b>1987</b>. Always aspire
     to gain as much knowledge as possible. Driven, passionate, resourceful, witty, strategic, honest; just some of the
     words that describe me. Mainly, kind and helpful. I have always enjoyed working with computers, whether it was
     playing games, writing, reading, learning, teaching, manipulating, researching, I have always enjoyed the concept of
