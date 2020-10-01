@@ -41,7 +41,7 @@ function About() {
           CLICK HERE TO DOWNLOAD RESUME
         </a></li>
     </ul>
-    <p class="cats"><img src="assets/1.jpg" style={imgstyle} alt="cats"></img></p>
+    <p class="cats"><img src={require ("../assets/candp.jpg")} style={imgstyle} alt="cats"></img></p>
   </p>
   </div>
   );
