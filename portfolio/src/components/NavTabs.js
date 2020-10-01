@@ -3,13 +3,13 @@ import React from "react";
 export const PAGE_NAMES = {
   HOME: "Home",
   ABOUT: "About",
-  BLOG: "Blog",
+  PORTFOLIO: "Portfolio",
   CONTACT: "Contact"
 }
 
 function NavTabs(props) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="navbar">
       <li className="nav-item">
         <a href="#home" onClick={() => props.handlePageChange("Home")} className="nav-link">
           Home
@@ -21,8 +21,8 @@ function NavTabs(props) {
         </a>
       </li>
       <li className="nav-item">
-        <a href="#blog" onClick={() => props.handlePageChange("Blog")} className="nav-link">
-          Blog
+        <a href="#Portfolio" onClick={() => props.handlePageChange("Portfolio")} className="nav-link">
+          Portfolio
         </a>
       </li>
       <li className="nav-item">

@@ -12,3 +12,12 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
+.navbar {
+  margin: auto;
+  background: darkslateblue;
+  width: 80%;
+  border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px cyan;
+}
