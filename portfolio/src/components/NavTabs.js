@@ -1,4 +1,5 @@
 import React from "react";
+import home from "./assets/home.png";
 
 export const PAGE_NAMES = {
   HOME: "Home",
@@ -7,29 +8,34 @@ export const PAGE_NAMES = {
   CONTACT: "Contact"
 }
 
-const navthumb = {
-  margin:"4px",
-  width:"50px",
-}
-
 function NavTabs(props) {
   return (
-    <p className="navbar">
-        <a href="#home" onClick={() => props.handlePageChange("Home")} className="nav-link">
-        <img src={require ("./assets/links/home.png")}style={navthumb}></img>
+    <p class="navbar">
+      <div class="home">
+        <a href="#home" onClick={() => props.handlePageChange("Home")} class="nav-link">
+        <img src={home} alt="home"></img>
         </a>
-        <a href="#about" onClick={() => props.handlePageChange("About")} className="nav-link">
-        <img src={require ("./assets/links/about.png")}style={navthumb}></img>
+      </div>
+      <div class="about">
+        <a href="#about" onClick={() => props.handlePageChange("About")} class="nav-link">
+        <img alt="about"></img>
         </a>
-        <a href="#portfolio" onClick={() => props.handlePageChange("Portfolio")} className="nav-link">
-        <img src={require ("./assets/links/portfolio.png")}style={navthumb}></img>
+      </div>
+      <div class="portfolio">
+        <a href="#portfolio" onClick={() => props.handlePageChange("Portfolio")} class="nav-link">
+        <img alt="portfolio"></img>
         </a>
-        <a href="#node" onClick={() => props.handlePageChange("Node")} className="nav-link">
-        <img src={require ("./assets/links/nodejs.png")}style={navthumb}></img>
+      </div>
+      <div class="node">
+        <a href="#node" onClick={() => props.handlePageChange("Node")} class="nav-link">
+        <img alt="node"></img>
         </a>
-        <a href="#contact" onClick={() => props.handlePageChange("Contact")} className="nav-link">
-        <img src={require ("./assets/links/contact.png")}style={navthumb}></img>
+      </div>
+      <div class="contact">
+        <a href="#contact" onClick={() => props.handlePageChange("Contact")} class="nav-link">
+        <img alt="contact"></img>
         </a>
+      </div>
     </p>
   );
 }

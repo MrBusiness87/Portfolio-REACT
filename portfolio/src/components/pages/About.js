@@ -1,18 +1,10 @@
 import React from "react";
 
 function About() {
-  const imgstyle = {
-    width: "300px",
-    float: "left",
-    marginRight: "30px",
-    borderRadius: "20px",
-    boxShadow: "0px 0px 40px 0px cyan",
-  }
-
   return (
     <div>
     <p class="about">
-    <img src={require ("../assets/profile.jpg")} style={imgstyle} alt="profile"></img>
+    <img alt="profile"></img>
     <p>Hello, thank you for coming to visit my page, hope you enjoy what I have done with the
     place!<br></br><br></br>
     My name is <span class="lightgreen">Borjan Bartula</span>.<br></br>Pronounced <span
@@ -39,7 +31,9 @@ function About() {
           CLICK HERE TO DOWNLOAD RESUME
         </a></li>
     </ul>
-    <p class="cats"><img src={require ("../assets/candp.jpg")} style={imgstyle} alt="cats"></img></p>
+    <p class="cats">
+      <img alt="cats"></img>
+    </p>
   </p>
   </div>
   );

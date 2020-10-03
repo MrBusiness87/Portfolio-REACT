@@ -26,16 +26,16 @@ body {
   width: 1500px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url(./blackpaper-hires.jpg);
+  background-image: url(./assets/blackpaper-hires.jpg);
   color: white;
 }
 
 .about,
 .achievement {
-  width: 1200px;
+  width: 800px;
   margin-right: auto;
   margin-left: auto;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .navbar {
@@ -45,4 +45,25 @@ body {
   border-radius: 20px;
   border-radius: 20px;
   box-shadow: 0px 0px 30px 0px cyan;
+}
+img {
+  padding-top: 6px;
+  padding-left: 4px;
+}
+
+.about img {
+  src: url(../public/assets/profile.jpg);
+}
+
+.cats img {
+  src: url(../public/assets/candp.jpg);
+}
+
+.about img,
+.cats img {
+width: "300px";
+float: "left";
+margin-right: "30px";
+border-radius: "20px";
+box-shadow: "0px 0px 40px 0px cyan";
 }
