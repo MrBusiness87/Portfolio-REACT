@@ -26,11 +26,38 @@ body {
   width: 1500px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url(./assets/blackpaper-hires.jpg);
+  background-image: url(./blackpaper-hires.jpg);
   color: white;
 }
 
-.about,
+.line1,
+.line2 {
+  text-align: center;
+}
+
+.line1 {
+  font-size: 60px;
+  color: darkgreen;
+}
+
+.line1 img {
+  width: 225px;
+  border-radius: 1500px;
+}
+
+.line2 {
+  font-size: 40px;
+  color:green;
+}
+
+.info {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  text-align: center;
+}
+
 .achievement {
   width: 800px;
   margin-right: auto;
@@ -46,24 +73,8 @@ body {
   border-radius: 20px;
   box-shadow: 0px 0px 30px 0px cyan;
 }
-img {
+
+.navbar img {
   padding-top: 6px;
   padding-left: 4px;
-}
-
-.about img {
-  src: url(../public/assets/profile.jpg);
-}
-
-.cats img {
-  src: url(../public/assets/candp.jpg);
-}
-
-.about img,
-.cats img {
-width: "300px";
-float: "left";
-margin-right: "30px";
-border-radius: "20px";
-box-shadow: "0px 0px 40px 0px cyan";
 }

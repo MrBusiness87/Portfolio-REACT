@@ -1,5 +1,4 @@
 import React from "react";
-import home from "./assets/home.png";
 
 export const PAGE_NAMES = {
   HOME: "Home",
@@ -8,32 +7,29 @@ export const PAGE_NAMES = {
   CONTACT: "Contact"
 }
 
+const navthumb = {
+  margin:"4px",
+  width:"50px",
+}
+
 function NavTabs(props) {
   return (
     <p class="navbar">
-      <div class="home">
-        <a href="#home" onClick={() => props.handlePageChange("Home")} class="nav-link">
-        <img src={home} alt="home"></img>
+      <div class="links">
+        <a href="#home" onClick={() => props.handlePageChange("Home")} title="HOME" className="nav-link">
+        <img src={require ("./assets/links/home.png")} style={navthumb} />
         </a>
-      </div>
-      <div class="about">
-        <a href="#about" onClick={() => props.handlePageChange("About")} class="nav-link">
-        <img alt="about"></img>
+        <a href="#about" onClick={() => props.handlePageChange("About")} title="ABOUT" className="nav-link">
+        <img src={require ("./assets/links/about.png")} style={navthumb} />
         </a>
-      </div>
-      <div class="portfolio">
-        <a href="#portfolio" onClick={() => props.handlePageChange("Portfolio")} class="nav-link">
-        <img alt="portfolio"></img>
+        <a href="#portfolio" onClick={() => props.handlePageChange("Portfolio")} title="PORTFOLIO" className="nav-link">
+        <img src={require ("./assets/links/portfolio.png")} style={navthumb} />
         </a>
-      </div>
-      <div class="node">
-        <a href="#node" onClick={() => props.handlePageChange("Node")} class="nav-link">
-        <img alt="node"></img>
+        <a href="#node" onClick={() => props.handlePageChange("Node")} title="NODE" className="nav-link">
+        <img src={require ("./assets/links/nodejs.png")} style={navthumb} />
         </a>
-      </div>
-      <div class="contact">
-        <a href="#contact" onClick={() => props.handlePageChange("Contact")} class="nav-link">
-        <img alt="contact"></img>
+        <a href="#contact" onClick={() => props.handlePageChange("Contact")} title="CONTACT" className="nav-link">
+        <img src={require ("./assets/links/contact.png")} style={navthumb} />
         </a>
       </div>
     </p>

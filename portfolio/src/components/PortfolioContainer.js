@@ -37,13 +37,6 @@ class PortfolioContainer extends Component {
           handlePageChange={this.handlePageChange}
         />
         {this.renderTabs()}
-
-        {/* {this.state.currentPage === "Home" && <Home />}
-        // this is the same as previous line == if (this.state.currentPage) return <Home />
-        {this.state.currentPage === "About" && <About />}
-        {this.state.currentPage === "Blog" && <Blog />}
-        {this.state.currentPage === "Contact" && <Contact />} */}
-
       </div>
     );
   }
