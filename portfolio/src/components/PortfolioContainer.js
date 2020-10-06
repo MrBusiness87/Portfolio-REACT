@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Node from "./pages/Node";
-import Contact from "./pages/Contact";
 
 class PortfolioContainer extends Component {
   state = {
@@ -25,8 +24,6 @@ class PortfolioContainer extends Component {
         return <Portfolio />;
         case PAGE_NAMES.NODE:
           return <Node />;
-      case PAGE_NAMES.CONTACT:
-        return <Contact />;
       default:
         return <Home />
     }

@@ -1,11 +1,6 @@
 import React from "react";
 
 function Home() {
-  const infoStyle = {
-    width:"150px",
-    height: "150px",
-  }
-
   return (
     <div>
       <link rel="icon" href="./assets/links/index.png"></link>
@@ -17,7 +12,7 @@ function Home() {
         </div>
         <br />
         <div class="line2">
-          <br />USE THE NAVBAR AT THE TOP TO NAVIGATE THE PAGE
+        <br />USE THE NAVBAR AT THE TOP TO NAVIGATE THE PAGE
         </div>
       </p>
     </div>

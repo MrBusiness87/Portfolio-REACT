@@ -33,9 +33,6 @@ function NavTabs(props) {
         <a href="#node" onClick={() => props.handlePageChange("Node")} title="NODE" className="nav-link">
         <img src={require ("./assets/links/nodejs.png")} style={navthumb} />
         </a>
-        <a href="#contact" onClick={() => props.handlePageChange("Contact")} title="CONTACT" className="nav-link">
-        <img src={require ("./assets/links/contact.png")} style={navthumb} />
-        </a>
       </div>
     </p>
   );
