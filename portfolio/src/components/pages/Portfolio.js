@@ -1,21 +1,51 @@
 import React from "react";
 
+const floatL = {
+  paddingRight: "200px",
+}
+const floatR = {
+  paddingLeft: "200px",
+}
+const pTitle = {
+  fontSize: "30px",
+}
+
 function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-        turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-        Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-        nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi
-        justo laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum
-        tellus eget lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
-        placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque
-        vehicula sit amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus
-        non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
+    <div class="column">
+      <br /><br /><br />
+      <a href="https://www.linkedin.com/in/borjanbartula" target="_blank">
+        <img src={require ("../assets/thumbnails/LINKEDIN thumbnail.jpg")} alt="LINKEDIN" />
+      </a>
+      <a href="http://www.google.com/" target="_blank">
+        <img src={require ("../assets/thumbnails/Google thumbnail.jpg")}
+          alt="GOOGLE" />
+      </a>
+      <br />
+      <a href="https://mrbusiness87.github.io/QUIZ-GAME/" target="_blank" style={floatL} >
+        <img src={require ("../assets/thumbnails/QUIZ thumbnail.png")} alt="QUIZ"/>
+      </a>
+      <a href="https://mrbusiness87.github.io/Weather-Forecaster/" target="_blank" style={floatR}>
+        <img src={require ("../assets/thumbnails/WEATHER thumbnail.png")} alt="WEATHER" />
+      </a>
+      <p class="ball"><br /><br /><br /><br />
+      <h2 style={pTitle}>PORTFOLIO<br />PAGE</h2>
       </p>
+      <br />
+      <a href="https://mrbusiness87.github.io/Work-Day-Scheduler/" target="_blank" style={floatL}>
+        <img src={require ("../assets/thumbnails/WORKDAY thumbnail.png")} alt="SCHEDULER" />
+      </a>
+      <a href="https://scratch.mit.edu/projects/389542029" target="_blank" style={floatR}>
+        <img src={require ("../assets/thumbnails/Scratch thumbnail.jpg")} alt="SCRATCH" />
+      </a>
+      <br />
+
+      <a href="https://mrbusiness87.github.io/Finder-Project1/" target="_blank">
+        <img src={require ("../assets/thumbnails/SF-thumbnail.jpg")} alt="SPORTS APP" />
+      </a>
+      <a href="https://your-kitchen.herokuapp.com/" target="_blank">
+        <img src={require ("../assets/thumbnails/Project2.png")} alt="YOUR KITCHEN APP" />
+      </a>
     </div>
   );
 }

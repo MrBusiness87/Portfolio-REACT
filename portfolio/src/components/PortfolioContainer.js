@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import NavTabs, { PAGE_NAMES } from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Blog from "./pages/Portfolio";
+import Portfolio from "./pages/Portfolio";
+import Node from "./pages/Node";
 import Contact from "./pages/Contact";
 
 class PortfolioContainer extends Component {
@@ -21,7 +22,9 @@ class PortfolioContainer extends Component {
       case PAGE_NAMES.ABOUT:
         return <About />;
       case PAGE_NAMES.PORTFOLIO:
-        return <Blog />;
+        return <Portfolio />;
+        case PAGE_NAMES.NODE:
+          return <Node />;
       case PAGE_NAMES.CONTACT:
         return <Contact />;
       default:

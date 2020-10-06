@@ -4,7 +4,12 @@ export const PAGE_NAMES = {
   HOME: "Home",
   ABOUT: "About",
   PORTFOLIO: "Portfolio",
-  CONTACT: "Contact"
+  CONTACT: "Contact",
+  NODE: "Node"
+}
+
+const navbar = {
+  textAlign:"center",
 }
 
 const navthumb = {
@@ -14,7 +19,7 @@ const navthumb = {
 
 function NavTabs(props) {
   return (
-    <p class="navbar">
+    <p class="navbar" style={navbar}>
       <div class="links">
         <a href="#home" onClick={() => props.handlePageChange("Home")} title="HOME" className="nav-link">
         <img src={require ("./assets/links/home.png")} style={navthumb} />
