@@ -8,7 +8,7 @@ function Home() {
         <div class="line1">
           WELCOME TO:<br />BORJANS PORTFOLIO<br /><br />
         <img src={require ("../assets/profile.jpg")} class="top"/>
-        <img src={require ("../assets/profilehover.jpg")} class="bottom"/>
+        {/* <img src={require ("../assets/profilehover.jpg")} class="bottom"/> */}
         </div>
         <br />
         <div class="line2">

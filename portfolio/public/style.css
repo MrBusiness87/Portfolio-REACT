@@ -48,7 +48,7 @@ body {
 }
 
 .top:hover {
-  display: none;
+  box-shadow: 0px 0px 80px 0px green;
 }
 
 .bottom {
@@ -81,6 +81,7 @@ body {
 }
 
 .navbar {
+  text-align: center;
   margin: auto;
   background: darkslateblue;
   width: 80%;
@@ -132,4 +133,22 @@ body {
     inset -20px 0 80px yellow, inset 20px 0 300px green,
     inset -20px 0 300px yellow, 0 0 50px gray, -10px 0 80px green,
     10px 0 80px yellow;
+}
+
+.footer {
+  z-index: -1;
+  text-align: center;
+  margin-left: 26%;
+  bottom: 0;
+  position: fixed;
+  background: darkslateblue;
+  width: 25%;
+  height: 4%;
+  border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px cyan;
+}
+
+.footer h2 {
+  margin-top: 0px;
 }

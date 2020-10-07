@@ -28,7 +28,7 @@ function Portfolio() {
       <a href="https://mrbusiness87.github.io/Weather-Forecaster/" target="_blank" style={floatR}>
         <img src={require ("../assets/thumbnails/WEATHER thumbnail.png")} alt="WEATHER" />
       </a>
-      <p class="ball"><br /><br /><br /><br />
+      <p class="ball"><br /><br /><br />
       <h2 style={pTitle}>PORTFOLIO<br />PAGE</h2>
       </p>
       <br />

@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Node from "./pages/Node";
+import Footer from "./Footer";
 
 class PortfolioContainer extends Component {
   state = {
@@ -37,6 +38,8 @@ class PortfolioContainer extends Component {
           handlePageChange={this.handlePageChange}
         />
         {this.renderTabs()}
+        <br />
+        <Footer />
       </div>
     );
   }

@@ -23,7 +23,7 @@ function Node() {
         <a href="https://github.com/MrBusiness87/Template-Engine/blob/master/README.md" target="_blank">
           <img src={require ("../assets/thumbnails/node/TEMPLATE thumbnail.png")} />
         </a>
-        <p class="ball"><br /><br /><br /><br />
+        <p class="ball"><br /><br /><br />
         <h2 style={pTitle}>NODE<br />PAGE</h2>
         </p>
         <a href="assets/thumbnails/SQL_Employee_Tracker_Aug 8, 2020 10_47 PM.webm" target="_blank">

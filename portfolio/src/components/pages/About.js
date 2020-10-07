@@ -9,12 +9,13 @@ function About() {
     boxShadow: "0px 0px 40px 0px cyan",
   }
   const catsStyle = {
-    width: "300px",
+    width: "220px",
     float: "right",
     marginRight: "30px",
     borderRadius: "20px",
     boxShadow: "0px 0px 40px 0px cyan",
     marginTop: "-30px",
+    marginRight: "15%",
   }
 
   const floatL = {
@@ -52,7 +53,7 @@ function About() {
           CLICK HERE TO DOWNLOAD RESUME
         </a></li>
       </ul>
-      <p class="cats"><img src={require ("../assets/candp.jpg")} style={catsStyle} alt="cats"></img></p>
+      <p class="cats"><img src={require ("../assets/candp.jpg")} style={catsStyle} alt="cats" /></p>
     </p>
   </div>
   );
