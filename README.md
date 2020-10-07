@@ -4,9 +4,6 @@
 
 ![](https://img.shields.io/badge/license-NONE-lightgrey)
 
-![GIF](#link for GIF#)
-[Video LINK](#link to website video#)
-
 ---
 
 # Table of Contents:
