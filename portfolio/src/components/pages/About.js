@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   const infoStyle = {
-    width: "300px",
+    width: "330px",
     float: "left",
     marginRight: "30px",
     borderRadius: "20px",
@@ -39,7 +39,7 @@ function About() {
       <span class="lightgreen">Coder/Programmer/Developer!</span>
       </p>
       <p>My plan to achieve this
-      starts with the <span class="skyblue">Coding Bootcamp</span> at <span
+      starts with:<br /><span class="skyblue">Coding Bootcamp</span> at <span
       class="skyblue">University of North Carolina at Chapel Hill</span>.</p>
     </p>
     <p class="achievement">
