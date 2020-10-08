@@ -1,23 +1,6 @@
 import React from "react";
 
 function About() {
-  const infoStyle = {
-    width: "330px",
-    float: "left",
-    marginRight: "30px",
-    borderRadius: "20px",
-    boxShadow: "0px 0px 40px 0px cyan",
-  }
-  const catsStyle = {
-    width: "220px",
-    float: "right",
-    marginRight: "30px",
-    borderRadius: "20px",
-    boxShadow: "0px 0px 40px 0px cyan",
-    marginTop: "-30px",
-    marginRight: "15%",
-  }
-
   const floatL = {
     float: "left",
   }
@@ -26,7 +9,7 @@ function About() {
     <div>
       <link rel="icon" href="./assets/links/about.png"></link>
     <p class="info">
-      <img src={require ("../assets/profile.jpg")} style={infoStyle} alt="profile"></img>
+      <img src={require ("../assets/profile.jpg")} class="infoStyle" alt="profile"></img>
       <p>Hello, thank you for coming to visit my page, hope you enjoy what I have done with the place!<br /><br />
       My name is <span class="lightgreen">Borjan Bartula</span>.<br />
       Pronounced <span
@@ -50,10 +33,10 @@ function About() {
         <li>Email: bbartula87@gmail.com</li>
         <li>Phone#: (919) 332-4516</li>
         <li><a href="../assets/RESUME Coding.pdf" target="_blank" download>
-          CLICK HERE TO DOWNLOAD RESUME
+          CLICK HERE TO<br />DOWNLOAD RESUME
         </a></li>
       </ul>
-      <p class="cats"><img src={require ("../assets/candp.jpg")} style={catsStyle} alt="cats" /></p>
+      <p class="cats"><img src={require ("../assets/candp.jpg")} class="catsStyle" alt="cats" /></p>
     </p>
   </div>
   );

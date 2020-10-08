@@ -1,13 +1,10 @@
 import React from "react";
 
 const floatL = {
-  paddingRight: "200px",
+  paddingRight: "20%",
 }
 const floatR = {
-  paddingLeft: "200px",
-}
-const pTitle = {
-  fontSize: "30px",
+  paddingLeft: "20%",
 }
 
 function Portfolio() {
@@ -29,7 +26,7 @@ function Portfolio() {
         <img src={require ("../assets/thumbnails/WEATHER thumbnail.png")} alt="WEATHER" />
       </a>
       <p class="ball"><br /><br /><br />
-      <h2 style={pTitle}>PORTFOLIO<br />PAGE</h2>
+      <h2 class="pTitle">PORTFOLIO<br />PAGE</h2>
       </p>
       <br />
       <a href="https://mrbusiness87.github.io/Work-Day-Scheduler/" target="_blank" style={floatL}>
